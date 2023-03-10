@@ -30,18 +30,49 @@ Definitions
    Context: A set of relevant aspects.
    Intelligence: The ability to determine an intention in a context.
    Intention: The preffered course of action.
+   Idea: The courses of action in a context, including the preferred
+   course of action.
+   Observer: a human or the AI system under consideration
    Safety: The presence of a reasonable level of risk.
 
 Abbreviations
 
    AI : Artificial Intelligence
    AIUC : AI system Under Consideration
+   TM: Thought Manifestation
 
-Information Modelling using the Intention in Context
+Information Modelling using Thought Manifestations (TM)
 
    Given a set of relevant aspects, the Context, an intelligent
    observer has the ability of determining which is the best course of
    action, the Intention.  First the observer forms the context, next
-   the context is analysed, and finally, one or more courses of action
-   can be deduced.  The observer can be either human, or the AI system
-   under consideration (AIUC).
+   the context is analysed, and one or more courses of action can be
+   deduced.  Finally, the observer selects its preferred course of 
+   action, which is called the Intention.
+
+Anatomy of a Thought Manifestation (TM)
+   
+   Each Thought Manifestation is comprised of two main parts:
+   
+      1. the Context, referencing all relevant aspects
+      
+      2. the possible courses of action, including an indication for
+         the preferred course of action (the Intention)
+
+Thought Manifestation (TM) process
+
+   Thoughts are manifested in two main steps
+   
+      1. Context Assessment, during which the Context is formed and 
+         its completeness is assessed
+      
+      2. Intention Deriving, during which the possible courses of action
+         are determined, and the preferred one is selected
+
+Specifying Thought Manifestations (TM)
+
+   A supporting system is required to specify the intentions in
+   contexts.  Each such entry, for a particular manifestation can be
+   considered a requirement.
+
+   
