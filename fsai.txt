@@ -1,1 +1,47 @@
-Functional Safety - Artificial Intelligence
+Jini Solutions S.R.L.                                           S. Saru
+                                                             March 2023
+
+
+             Functional Safety - Artificial Intelligence
+                              (FSAI)
+
+Abstract
+
+   This document describes a fundamental approach for handling safety
+   related aspects of artificial intelligent systems.  This approach
+   relies heavily on organizing information using a data structure
+   which in essence, shows which is the next action intended in a given
+   context.  This data structure facilitates the analysis of complex
+   decisions which carry safety responsibility.  This document provides
+   principles and concepts for supporting the provision of argumented
+   evidences towards demonstrating the safety of an AI system.
+
+Copyright Notice
+
+   Copyright (c) 2023 Jini Solutions and the persons identified as the
+   document authors.
+
+License
+
+   MIT License
+
+Definitions
+
+   Context: A set of relevant aspects.
+   Intelligence: The ability to determine an intention in a context.
+   Intention: The preffered course of action.
+   Safety: The presence of a reasonable level of risk.
+
+Abbreviations
+
+   AI : Artificial Intelligence
+   AIUC : AI system Under Consideration
+
+Information Modelling using the Intention in Context
+
+   Given a set of relevant aspects, the Context, an intelligent
+   observer has the ability of determining which is the best course of
+   action, the Intention.  First the observer forms the context, next
+   the context is analysed, and finally, one or more courses of action
+   can be deduced.  The observer can be either human, or the AI system
+   under consideration (AIUC).
